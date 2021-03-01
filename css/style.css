@@ -1,0 +1,67 @@
+.nav-link{
+    text-transform: uppercase;
+    transition: all .4s;
+    
+}
+.nav-link:hover{
+    border-bottom: 2px solid green;
+    padding: 30px;
+    transition: all .4s;
+}
+nav{
+    box-shadow: 2px -2px 0px 5px rgba(206, 196, 196, 0.288);
+    /*esperar a tener mas contenido en el cuerpo mirar reaccion*/
+    
+}
+.home{
+    background-image: url(../assets/banner.png);
+    background-size: cover;
+    height: 821px;
+    color: white;
+    background-attachment: fixed;
+}
+#btn{
+    
+    margin-top: 3rem;
+}
+
+.head1{
+    font-size: 55px;
+    margin-top: 5em;
+}
+.home .container .row .header{
+    padding-top: 20em;
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: lightgreen;
+}
+.menu{
+    background-color: silver;
+}
+
+.card-title{
+    font-size: 35px;
+}
+.card-text{
+    font-size: 24px;
+}
+.card{
+    transition: all .5s;
+}
+.card:hover{
+    transition: all .5s;
+    box-shadow: 2px 2px 0px 2px rgba(0, 0, 0, 0.212);
+}
+.news{
+    background-color: rgb(235, 235, 235);
+}
+.img-slide-show{
+    min-height: 700px;
+    max-height: 700px;
+}
+.card-img1{
+    min-height: 300px;
+    max-height: 300px;
+}
